@@ -10,7 +10,7 @@
 ![Alt text](/Images/3.png)
 ## Description:
 ### A PCB detects the current flowing in a wire using a coil and transistors. It is in the shape of a snake, and the coil is its tongue. It has two LEDs in its eyes that light up when it detects current, also it vibrates near its tail.
-## My slack Username: Nadooor
+## My slack Username: Ziad
 # List of Materials:
 ### * 2 LEDs
 ### * 3 NPN 2N3904 transistors
