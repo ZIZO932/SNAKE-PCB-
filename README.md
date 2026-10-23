@@ -1,22 +1,37 @@
-# Snake_pcb
-## PCB:
-![Alt text](/Images/1.png)
+# Snake PCB
 
-## Schematic:
-![Alt text](/Images/4.png)
+A snake-shaped detector board I designed in KiCad. The coil is its tongue, the two LEDs are its eyes, and a small vibration motor sits near the tail.
 
-## 3D Model:
-![Alt text](/Images/2.png)
-![Alt text](/Images/3.png)
-## Description:
-### A PCB detects the current flowing in a wire using a coil and transistors. It is in the shape of a snake, and the coil is its tongue. It has two LEDs in its eyes that light up when it detects current, also it vibrates near its tail.
-## My slack Username: Ziad
-# List of Materials:
-### * 2 LEDs
-### * 3 NPN 2N3904 transistors
-### * 1 mini motor disc
-### * 1 (1K ohm) resistor
-### * 1 (330 ohm) resistor
-### * 1 (1M ohm) resistor
-### * 2 (1x02 connector Pins)
-### * 1 Push Button
+The circuit uses a coil and three NPN transistors to pick up a nearby signal and drive the LEDs and motor. I liked the idea of making the board shape part of the project instead of putting everything on a rectangle.
+
+## Board and schematic
+
+![PCB layout](Images/1.png)
+![Schematic](Images/4.png)
+
+## 3D views
+
+![Front view](Images/2.png)
+![Second view](Images/3.png)
+
+## Parts
+
+| Part | Quantity |
+| --- | --- |
+| LED | 2 |
+| 2N3904 NPN transistor | 3 |
+| Mini vibration disc motor | 1 |
+| 1 kΩ resistor | 1 |
+| 330 Ω resistor | 1 |
+| 1 MΩ resistor | 1 |
+| 1×02 connector | 2 |
+| Push button | 1 |
+
+## Design files
+
+- [KiCad project](badge.kicad_pro)
+- [Schematic](badge.kicad_sch)
+- [PCB layout](badge.kicad_pcb)
+- [Gerber files](gerber%20files.zip)
+
+Made by Ziad. My Hack Club Slack name is Ziad too.
